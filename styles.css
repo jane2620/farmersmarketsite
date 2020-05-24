@@ -1,0 +1,298 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: olive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#header {
+    background-color: #B00202;
+    border-radius: 0;
+    border: 0;
+    height: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav-item {
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    margin: 25px 10px 0 20px;
+}
+#header li a{
+    text-decoration: none;
+    padding: 30px 0 0 0;
+    margin: 50px 0px 0px 0px;
+    color: white;
+}
+#header li a:hover{
+    text-decoration: none;
+    padding: 30px 0 0 0;
+    margin: 50px 0px 0px 0px;
+    color: lightgray;
+}
+.logo {
+    height: 100px;
+    float:left;
+}
+
+#hours {
+    margin: 0 20px 0 20px;
+    text-decoration: none;
+    color: lightgray;
+    text-align: center;
+    font-size: 25px;
+    
+}
+#map {
+    color: lightgray;
+    margin: 10px 20px 10px 20px;
+}
+.openingimg {
+    width: 1500px;
+    height: 700px;
+    margin-left: -15px;
+
+}
+#title {
+    background-color: white;
+    margin: 0;
+}
+#title h1{
+    text-align: center;
+    background-color: white;
+    color: #333333;
+    padding: 0px 0px 10px 0px;
+    margin: 10px 0 0px 0;
+}
+#title h1 a{
+    text-decoration: none;
+    background-color: white;
+    color: #333333;
+    padding: 0px 0px 10px 0px;
+    margin: 10px 0 0px 0;
+}
+#title h1 a:hover{
+    text-decoration: none;
+    background-color: white;
+    color: gray;
+    padding: 0px 0px 10px 0px;
+    margin-left: 0px;
+}
+
+#info h3 {
+    margin: 10px 20px 10px 20px;
+    border: 2px solid darkgray;
+}
+
+#socials a{
+    color: white;
+}
+#socialsbutton {
+    width: 40%;
+    align-content: center;
+    float: left;
+    margin: 10px 10px 30px 20px;
+    font-size: 40px;
+    padding: 10px;
+}
+
+#socialsbuttonfb {
+    width: 40%;
+    align-content: center;
+    float: left;
+    font-size: 40px;
+    padding: 10px;
+}
+
+#About {
+    clear: both;
+    padding: 10px;
+    background-color: #BFA500;
+}
+#headerspace {
+    height: 100px;
+}
+
+#foodstands li {
+    list-style: none;
+    background-color: darkgray;
+    padding: 20px;
+    box-shadow: 1px 1px 20px 1px gray;
+    margin: 20px 0px 20px 0px;
+}
+#foodstands a {
+    text-decoration: none;
+    color: white;
+}
+#foodstands a:hover{
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+}
+
+#marketinfo {
+    padding: 20px;
+    margin: 20px 0px 0px 20px;
+    background-color: #044600;
+}
+
+#marketinfo li a{
+    list-style: none;
+    color: white;
+}
+
+#marketinfo ul {
+    columns: 1;
+}
+
+#foodinfo {
+    padding: 20px;
+    margin: 20px 0px 0px 20px;
+    background-color: #044600;
+}
+
+#foodinfo li a{
+    list-style: none;
+    color: white;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #044600;
+    align-content: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+footer h2 {
+    text-align: center;
+    font-size: 16px;
+}
+footer h3 {
+    text-align: center;
+    font-size: 12px;
+}
+
+@media (min-width: 1000px) {
+    #COVID {
+        height: 230px;
+        margin-top: 25px
+    }
+    h2#COVID {
+        background-color: rgb(120, 120, 120);
+        padding: 30px;
+        text-align: center;
+        width: 15%;
+        float: left;
+        margin-left: 150px;
+
+    }
+    p#COVID {
+        background-color: rgb(120, 120, 120);
+        padding: 30px;
+        text-align: justify;
+        font-size: 20px;
+        float:left;
+        width: 64%;
+        margin-bottom: 30px;
+    }
+    #foodinfo ul {
+        columns: 4;
+    }
+    #socialsbuttonfb {
+        margin: 10px 10px 30px 60px;
+        
+    }
+
+}
+
+@media (max-width: 999px) and (min-width: 767px) {
+    #COVID {
+        background-color: rgb(120, 120, 120);
+        align-content: center;
+    }
+    h2#COVID {
+        background-color: rgb(120, 120, 120);
+        padding: 30px;
+        text-align: center;
+    }
+    p#COVID {
+        background-color: rgb(120, 120, 120);
+        padding: 30px;
+        text-align: justify;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    #foodinfo ul {
+        columns: 3;
+    }
+    #socialsbuttonfb {
+        margin: 10px 10px 30px 40px;
+    }
+}
+@media (max-width: 766px) {
+    #COVID {
+        background-color: rgb(120, 120, 120);
+        align-content: center;
+    }
+    h2#COVID {
+        margin-top: 125px;
+        background-color: rgb(120, 120, 120);
+        padding: 30px;
+        text-align: center;
+    }
+    p#COVID {
+        background-color: rgb(120, 120, 120);
+        padding: 30px;
+        text-align: justify;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    #foodinfo ul {
+        columns: 2;
+    }
+    #socialsbuttonfb {
+        margin: 10px 10px 30px 20px;
+    }
+}
+@media (max-width: 690px) {
+    #COVID {
+        background-color: rgb(120, 120, 120);
+        align-content: center;
+    }
+    h2#COVID {
+        margin-top: 260px;
+        background-color: rgb(120, 120, 120);
+        padding: 30px;
+        text-align: center;
+    }
+    p#COVID {
+        background-color: rgb(120, 120, 120);
+        padding: 30px;
+        text-align: justify;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    #foodinfo ul {
+        columns: 2;
+    }
+    #socialsbuttonfb {
+        margin: 10px 10px 30px 20px;
+    }
+    #header {
+        height: 240px;
+    }
+    .nav-item {
+        padding: 0px 100px 0px 80px;
+        align-content: center;
+        clear: both;
+    }
+
+    #marketinfo {
+        margin-top: 160px;
+    }
+    #foodinfo {
+        margin-top: 160px;
+    }
+
+
+}
